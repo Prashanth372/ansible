@@ -2,7 +2,7 @@
   hosts: mongodb
   tasks:  
     - name: Install nginx
-       ansible.builtin.yum:
+      ansible.builtin.yum:
         name: nginx
         state: installed
     - name: start nginx
