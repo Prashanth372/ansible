@@ -1,0 +1,34 @@
+#list of persons
+- name: Prashanth
+  DOB: 30-11-1993
+  #this one is map
+  Address: 
+    city: Visakhapatnma
+    Country: India
+    dno: 102
+    street: gandhi nagar
+  #this is list of addresses
+  addresses:
+  - type: perm
+    city: vizag
+    Country: India
+  - type: Current
+    city: California
+    Country: US
+#this is secondpersons
+- name: Ramesh
+  DOB: 30-11-1993
+  #this one is map
+  Address: 
+    city: Visakhapatnma
+    Country: India
+    dno: 102
+    street: gandhi nagar
+  #this is list of addresses
+  addresses:
+  - type: perm
+    city: vizag
+    Country: India
+  - type: Current
+    city: California
+    Country: US

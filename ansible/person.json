@@ -1,0 +1,27 @@
+{
+    "name": "Prashanth" ,
+    "DOB": "1-1-2021" ,
+    // This is address map, everything inside is key value pair
+    "Address": {
+        "City": "Vizag" ,
+        "Country": "India"
+    }
+}
+
+{
+    "name": "Prashanth" ,
+    "DOB": "22-5-2002" ,
+    // This is address map, everything inside is key value pair
+    "Address": [
+        {
+            "City": "Vizag" ,
+            "Country": "India",
+            "type": "Perm"
+        },
+        {
+            "City": "Vizag" ,
+            "Country": "India",
+            "type": "Current"
+        }
+    ]
+}

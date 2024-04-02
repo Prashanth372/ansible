@@ -1,0 +1,14 @@
+<Person>
+    <Name>Prashanth</Name>
+    <DOB>01-01-2021</DOB>
+    <Address>
+        <PermAddress>
+            <Country>India</Country>
+            <City>Visakhapatnam</City>
+        </PermAddress>
+        <CurrentAddress>
+            <Country>US</Country>
+            <City>California</City>
+        </CurrentAddress>        
+    </Address>
+</Person>
