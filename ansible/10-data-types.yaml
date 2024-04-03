@@ -1,4 +1,4 @@
-- name: ansibe variable data types
+- name: ansible variable data types
   hosts: localhost
   vars: 
   - AGE: 30 #Number
