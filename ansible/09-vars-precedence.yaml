@@ -1,0 +1,10 @@
+- name: testing variable precedence
+  hosts: localhost
+  vars: 
+    NAME: Prashanth-play
+  tasks:
+  - name: variable at task level
+    vars:   
+      NAME: Prashanth-task
+    ansible.builtin.debug:
+      msg: "trainer name is {{NAME}}"
