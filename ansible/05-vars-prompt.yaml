@@ -8,6 +8,6 @@
       prompt: Please enter your password  
       private: truee # you cannot see the value entered on screen
   tasks:
-  - name: print variable values
+    - name: print variable values
       ansible.builtin.debug:
-      msg: "username: {{USERNAME}}, password: {{PASSWORD}}"  
+        msg: "username: {{USERNAME}}, password: {{PASSWORD}}"  
