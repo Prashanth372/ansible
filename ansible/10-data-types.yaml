@@ -24,9 +24,9 @@
       msg: "{{isDevops}}"
   - name: print List variable
     ansible.builtin.debug:
-      msg: "{{Skills:}}"
+      msg: "{{Skills}}"
   - name: print Map variable
     ansible.builtin.debug:
-      msg: "{{EXPERIENCE:}}"
+      msg: "{{EXPERIENCE}}"
 
 
